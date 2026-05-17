@@ -29,6 +29,7 @@ LEARNING_RATE = 0.001
 WEIGHT_DECAY = 0.0001
 
 models = {
+    "BaseLineModelLogisticRegression":  LogisticRegression(),
     "LogisticRegression": LogisticRegression(max_iter=2000),
     "KNN": KNeighborsClassifier(algorithm="brute", n_jobs=1),
     "RandomForestClassifier": RandomForestClassifier(random_state=RANDOM_STATE),
@@ -39,6 +40,7 @@ models = {
 }
 
 param_grids = {
+    "BaseLineModelLogisticRegression": {},
     "LogisticRegression": {
         'model__penalty': ['elasticnet'],
         'model__solver': ['saga'],
