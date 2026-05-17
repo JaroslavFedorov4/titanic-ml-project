@@ -21,7 +21,7 @@ ensemble learning, boosting models, and a PyTorch neural network.
 
 ![alt text](image.png)
 
-- Base model - LogisticRegression (best_score - 0.183300)
+- Base model - LogisticRegression (best_score - 0.813)
 
 ## Structure of project
 
